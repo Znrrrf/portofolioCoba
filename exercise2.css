@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    font-family: Monospace;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    background-color: greenyellow;
+
+}
+
+.container{
+    background-color: #DBE2EF;
+}
+
+.top-page{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+
+}
+table{
+    border: 1px black;
+    width: 100%;
+}
+
+.greeting{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background-color: #112D4E;
+    color: white;
+}
+
+.greeting h1{
+    font-size: 120px;
+}
+
+.top-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-pic img{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 500px;
+    margin-left: 90px;
+    margin-right: 0;
+}
+
+.name{
+    /* background-color: red; */
+}
+
+.name p{
+    font-size: 40px;
+
+}
+
+
+.p1{
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: greenyellow; */
+    margin-bottom: 0;
+}
+
+.p2{
+    margin-bottom: 50px;
+}
+
+
+
+.read-more:hover{
+    cursor: pointer;
+    background-color: #DBE2EF;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.read-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    background-color: #112D4E;
+    border-radius: 20px;
+}
+/* .greet-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.top-pic-col{
+    display: flex;
+    align-items: center;
+}
+td{
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    height: 500px;
+}
+
+.mid-page{
+    /* background-color: red; */
+    height: 600px;
+}
+
+.profil{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    color: #112D4E;
+
+}
+
+.profil h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* .tab-prof{
+    background-color: blue;
+    height: 600px;
+} */
+
+.about-me{
+    /* border-width: 2px; */
+    /* border-style: solid;
+    border-color: black; */
+    width: 35%;
+    color: #112D4E;
+
+}
+
+.about-me div h2{
+    /* background-color: orange; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.about-me div{
+    
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.about-me div p{
+    /* background-color: aqua; */
+}
+
+.img-prof div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-prof div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+.img-prof{
+    border-width: 2px;
+    /* border-style: solid;
+    border-color: black; */
+    width: 30%;
+    
+}
+
+.detile div{
+    margin-left: 200px;
+    margin-right: 120px;
+    color: #112D4E;
+    /* background-color: white;
+    padding: 20px;
+    border-radius: 20px;     */
+}
+
+.detile div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.detile div h3{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-bottom: 10px;
+}
+.detile div p{
+    margin-bottom: 5px;
+}
+
+.detile{
+    width: 35%;
+    
+}
+
+.sec-mid-page{
+    background-color: #F9F7F7;
+}
+
+.title-skill{
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-skill{
+    /* background-color: orange; */
+}
+
+.col-skill{
+    /* background-color: blueviolet; */
+}
+
+.col-skill div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DBE2EF;
+    margin: auto;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.col-skill div img{
+    width: 200px;
+    height: 200px;
+}
+
+.footer{
+    background-color: #112D4E;
+    color: #DBE2EF;
+}
